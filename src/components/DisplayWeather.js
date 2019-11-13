@@ -25,7 +25,7 @@ class DisplayWeather extends React.Component {
               <p className="temperature-p">{this.props.temp}</p>
             </div>
 
-            <p>
+            <p className="buttons">
               {tempCategory === "Celsius" ? (
                 <button onClick={this.props.setCelsius} type="button">
                   Celsius
