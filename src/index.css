@@ -1,9 +1,11 @@
 body {
-  margin: 20px auto;
+  margin: 40px auto;
   padding: 0;
 
   background: url("../src/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
 
   color: white;
+
+  letter-spacing: 2px;
 }
