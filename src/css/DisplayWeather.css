@@ -1,0 +1,62 @@
+#display-weather {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.weather-div {
+  padding: 40px;
+}
+
+.conditions-p {
+  font-size: 1.3em;
+
+}
+
+.weather-p {
+  font-size: 2.4em;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #fec109;
+}
+
+.temperature-p {
+  font-size: 2.5em;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #FEC109;
+}
+
+
+.location-div {
+  font-size: 1.438em;
+}
+
+.loader-1 {
+  margin: 20px auto;
+}
+
+.loader-2 {
+  margin: 0 auto;
+}
+
+.edit-span {
+  font-weight: bold;
+
+  background: -webkit-linear-gradient(white, #FEC109, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  letter-spacing: 1px;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.clock {
+  font-size: 1.5em;
+}
