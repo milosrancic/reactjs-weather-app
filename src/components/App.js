@@ -26,7 +26,7 @@ class App extends React.Component {
     };
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.getLocation();
   }
 
@@ -92,7 +92,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container text-center" id="app">
+      <div className="container" id="app">
         <h1>Current Weather</h1>
         <DisplayWeather
           setFaren={this.handleFaren}
