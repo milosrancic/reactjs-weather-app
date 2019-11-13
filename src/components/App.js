@@ -92,7 +92,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container" id="app">
+      <div id="app">
         <h1>Current Weather</h1>
         <DisplayWeather
           setFaren={this.handleFaren}
