@@ -15,74 +15,43 @@ class DisplayWeather extends React.Component {
     let tempCategory = this.props.tempCategory;
 
     return (
-      <div
-        className="display-weather text-center container"
-        id="display-weather"
-      >
-        <p className="conditions-p mb-4">The current weather condition is:</p>
+      <div className="display-weather" id="display-weather">
+        <p className="conditions-p">The current weather condition is:</p>
 
         {isWeatherLoaded ? (
           <div>
-            <div className="row">
-              <div className="col"></div>
-              <div className="weather-div m-2 border border-warning rounded">
-                <p className="weather-p m-0">{this.props.weatherDetail}</p>
-                <p className="temperature-p">{this.props.temp}</p>
-              </div>
-              <div className="col"></div>
+            <div className="weather-div">
+              <p className="weather-p ">{this.props.weatherDetail}</p>
+              <p className="temperature-p">{this.props.temp}</p>
             </div>
 
             <p>
               {tempCategory === "Celsius" ? (
-                <button
-                  onClick={this.props.setCelsius}
-                  type="button"
-                  className="btn btn-warning btn-sm"
-                >
+                <button onClick={this.props.setCelsius} type="button">
                   Celsius
                 </button>
               ) : (
-                <button
-                  onClick={this.props.setCelsius}
-                  type="button"
-                  className="btn btn-outline-warning btn-sm"
-                >
+                <button onClick={this.props.setCelsius} type="button">
                   Celsius
                 </button>
               )}
 
               {tempCategory === "Faren" ? (
-                <button
-                  onClick={this.props.setFaren}
-                  type="button"
-                  className="btn btn-warning btn-sm m-2"
-                >
+                <button onClick={this.props.setFaren} type="button">
                   Fahrenheit
                 </button>
               ) : (
-                <button
-                  onClick={this.props.setFaren}
-                  type="button"
-                  className="btn btn-outline-warning btn-sm m-2"
-                >
+                <button onClick={this.props.setFaren} type="button">
                   Fahrenheit
                 </button>
               )}
 
               {tempCategory === "Kelvin" ? (
-                <button
-                  onClick={this.props.setKelvin}
-                  type="button"
-                  className="btn btn-warning btn-sm"
-                >
+                <button onClick={this.props.setKelvin} type="button">
                   Kelvin
                 </button>
               ) : (
-                <button
-                  onClick={this.props.setKelvin}
-                  type="button"
-                  className="btn btn-outline-warning btn-sm"
-                >
+                <button onClick={this.props.setKelvin} type="button">
                   Kelvin
                 </button>
               )}
@@ -99,7 +68,7 @@ class DisplayWeather extends React.Component {
         )}
 
         {isLocationLoaded ? (
-          <div className="location-div my-4">
+          <div className="location-div">
             <p>
               <small>Your approximate location is:</small>{" "}
               <span className="edit-span">
