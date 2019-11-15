@@ -1,11 +1,9 @@
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 20px auto;
   padding: 20px;
-
+  color: white;
+  letter-spacing: 2px;
   background: url("../src/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
-
-  color: white;
-
-  letter-spacing: 2px;
 }
