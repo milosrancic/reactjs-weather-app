@@ -25,7 +25,7 @@ class DisplayWeather extends React.Component {
               <p>{this.props.temp}</p>
             </div>
 
-            <p className="buttons">
+            <div className="buttons">
               {tempCategory === "Celsius" ? (
                 <button onClick={this.props.setCelsius} type="button">
                   Celsius
@@ -55,7 +55,7 @@ class DisplayWeather extends React.Component {
                   Kelvin
                 </button>
               )}
-            </p>
+            </div>
           </div>
         ) : (
           <ReactLoading
@@ -70,14 +70,14 @@ class DisplayWeather extends React.Component {
         {isLocationLoaded ? (
           <div className="location-div">
             <p>
-              <small>Your approximate location is:</small>{" "}
-              <span className="edit-span">
+              <small>Your approximate location is: </small>
+              <span className="location-span">
                 {this.props.city}, {this.props.country}
               </span>
             </p>
             <p>
-              <small>Your coordinates are:</small>{" "}
-              <span className="edit-span">
+              <small>Your coordinates are: </small>
+              <span className="location-span">
                 {lat}, {lon}
               </span>
             </p>
