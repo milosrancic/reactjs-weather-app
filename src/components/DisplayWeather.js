@@ -27,7 +27,11 @@ class DisplayWeather extends React.Component {
 
             <div className="buttons">
               {tempCategory === "Celsius" ? (
-                <button onClick={this.props.setCelsius} type="button">
+                <button
+                  onClick={this.props.setCelsius}
+                  type="button"
+                  className="active-button"
+                >
                   Celsius
                 </button>
               ) : (
@@ -37,7 +41,11 @@ class DisplayWeather extends React.Component {
               )}
 
               {tempCategory === "Faren" ? (
-                <button onClick={this.props.setFaren} type="button">
+                <button
+                  onClick={this.props.setFaren}
+                  type="button"
+                  className="active-button"
+                >
                   Fahrenheit
                 </button>
               ) : (
@@ -47,7 +55,11 @@ class DisplayWeather extends React.Component {
               )}
 
               {tempCategory === "Kelvin" ? (
-                <button onClick={this.props.setKelvin} type="button">
+                <button
+                  onClick={this.props.setKelvin}
+                  type="button"
+                  className="active-button"
+                >
                   Kelvin
                 </button>
               ) : (

@@ -23,28 +23,6 @@
   font-size: 1.3em;
 }
 
-
-.loader-1 {
-  margin: 20px auto;
-}
-
-.loader-2 {
-  margin: 0 auto;
-}
-
-.location-div {
-  font-size: 1.44em;
-}
-
-.location-span {
-  font-weight: bold;
-
-  background: -webkit-linear-gradient(white, #FEC109, white);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -57,10 +35,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
   color: #FEC109;
-  background: transparent;
-  border: 1px solid #FEC109;
   font-weight: bold;
   letter-spacing: 3px;
+  background: transparent;
+  border: 1px solid #FEC109;
 }
 
 button:focus {
@@ -71,12 +49,36 @@ button:focus {
 button:hover {
   color: black;
   background: #FEC109;
-  transition: background-color 400ms linear;
-  -webkit-transition: background-color 400ms linear;
-  -ms-transition: background-color 400ms linear;
+  transition: background-color 500ms linear;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+}
+
+.active-button {
+  color: black;
+  background: #FEC109;
+}
+
+.loader-1 {
+  margin: 15px auto;
+}
+
+.loader-2 {
+  margin: 25px auto;
+}
+
+.location-div {
+  font-size: 1.44em;
+}
+
+.location-span {
+  font-weight: bold;
+  background: -webkit-linear-gradient(white, #FEC109, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .clock {
-
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
