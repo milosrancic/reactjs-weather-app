@@ -15,14 +15,14 @@ class DisplayWeather extends React.Component {
     let tempCategory = this.props.tempCategory;
 
     return (
-      <div className="display-weather" id="display-weather">
+      <div id="display-weather">
         <p className="conditions-p">The current weather condition is:</p>
 
         {isWeatherLoaded ? (
           <div>
             <div className="weather-div">
-              <p className="weather-p ">{this.props.weatherDetail}</p>
-              <p className="temperature-p">{this.props.temp}</p>
+              <p>{this.props.weatherDetail}</p>
+              <p>{this.props.temp}</p>
             </div>
 
             <p className="buttons">
