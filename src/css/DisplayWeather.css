@@ -1,11 +1,15 @@
 #display-weather {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .weather-div {
+  max-width: 350px;
+  margin: auto;
   padding: 40px;
+  border: 1px solid #fec109;
+  border-radius: 5px;
 }
 
 .conditions-p {
@@ -49,12 +53,39 @@
   -webkit-text-fill-color: transparent;
 }
 
-.btn {
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: 15px auto;
+
+}
+
+button {
+  letter-spacing: 1px;
+  padding: 10px 12px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FEC109;
+  background: transparent;
+  border: 1px solid #FEC109;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 
-.btn:focus {
+button:focus {
   box-shadow: none !important;
+  outline: none;
+}
+
+button:hover {
+  color: black;
+  background: #FEC109;
+
+  -webkit-transition: background-color 400ms linear;
+  -ms-transition: background-color 400ms linear;
+  transition: background-color 400ms linear
 }
 
 .clock {
