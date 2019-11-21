@@ -79,6 +79,12 @@ button:hover {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 610px) {
+  .location-span {
+    display: block;
+  }
+}
+
 .clock {
   font-size: 1.4em;
 }
