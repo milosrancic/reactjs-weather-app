@@ -8,6 +8,10 @@ https://milosrancic.github.io/reactjs-weather-app/
 
 HTML5, CSS3, JavaScript, ReactJS
 
+Here's the screenshot:
+
+[![Weather-App.png](https://i.postimg.cc/cJNtkRbZ/Weather-App.png)](https://postimg.cc/FYDK7Lvn)
+
 ### Installation
 
 1. Fork/clone/download the repo and run `npm install` inside the folder.
