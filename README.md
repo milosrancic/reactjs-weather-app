@@ -4,13 +4,13 @@
 
 https://milosrancic.github.io/reactjs-weather-app/
 
-### Technologies
-
-HTML5, CSS3, JavaScript, ReactJS
-
 Here's the screenshot:
 
 [![Weather-App.png](https://i.postimg.cc/cJNtkRbZ/Weather-App.png)](https://postimg.cc/FYDK7Lvn)
+
+### Technologies
+
+HTML5, CSS3, JavaScript, ReactJS
 
 ### Installation
 
