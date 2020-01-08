@@ -4,7 +4,7 @@
 
 https://milosrancic.github.io/reactjs-weather-app/
 
-Here's the screenshot:
+### Screenshot:
 
 [![Weather-App.png](https://i.postimg.cc/cJNtkRbZ/Weather-App.png)](https://postimg.cc/FYDK7Lvn)
 
